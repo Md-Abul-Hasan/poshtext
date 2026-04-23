@@ -1,14 +1,11 @@
-import { Button } from "@/components/ui/button"
+// app/page.tsx
+import { Button } from "@/components/ui/button";
 
-const menu={
-  
-}
-
-
-const page = () => {
+export default function Home() {
   return (
-    <Button className="bg-red-500">Posh Tex</Button>
-  )
+    <div className="p-4">
+      <h1>Poshtex</h1>
+      <Button>Click me</Button>
+    </div>
+  );
 }
-
-export default page
